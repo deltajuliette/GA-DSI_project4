@@ -37,7 +37,7 @@ We were tasked to used the datasets from ([Kaggle](https://www.kaggle.com/c/pred
 
 Using XGBoost as our model, we achieved an ROC AUC of 0.84-85 (See comparison with other models above). The results show that week and month of the year were top predictors for our model, followed by several clusters (geolocations), average temperature, humidity and the pipiens species. This likely indicates that WNV is likely seasonal.
 
-![xgboost_roc_auc.PNG](./images/xgboost_roc_auc.PNG "xgboost_roc_auc.PNG")
+![xgboost_roc_auc.PNG](https://github.com/deltajuliette/GA-DSI_project4/blob/master/images/xgboost_roc_auc.png) 
 
 We believe further improvements can be made to the model (if given enough time). Here are some of our considerations:
 * There could be a bias for certain traps (Given that a particular trap may always capture more mosquitos, etc)
@@ -45,7 +45,7 @@ We believe further improvements can be made to the model (if given enough time).
 
 After conducting a cost-benefit analysis, we've found that there are cost savings from reducing WNV cases. As we observed some **seasonality effects** in our model (i.e. week and month), it may be more efficient to start spraying based on seasonal spikes in July-August before they peak later.
 
-![map_predictions.PNG](./images/map_predictions.PNG "map_predictions.PNG")
+![map_predictions.PNG](https://github.com/deltajuliette/GA-DSI_project4/blob/master/images/map_predictions.png)
 
 # Recommendations
 
