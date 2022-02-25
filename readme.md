@@ -52,4 +52,4 @@ After conducting a cost-benefit analysis, we've found that there are cost saving
 1. Based off data we have around the traps, we can infer the presence of clusters, which have higher WNV rates. These clusters / areas where the traps are located should be targeted specifically.
 2. We observed some **seasonality effects** in our model (i.e. week and month). This means it may be more efficient to start spraying based on seasonal spikes in July-August before they peak later.
 3. Identify periods of slower wind-speeds as this would likely result in mosquitoes can travelling over larger areas. If wind speeds are greater than 10 MPH, mosquitoes generally can't fly.
-4. Control mosquito breeding grounds through surveillence and education
+4. Control mosquito breeding grounds through surveillence and education.
