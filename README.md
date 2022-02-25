@@ -47,7 +47,7 @@ In Illinois, WNV human infections have been endemic since 2002, with annual vari
 
 # Summary of our findings
 
-![model_comparisons.png](/images/model_comparison.png)
+![model_comparisons.png](/images/model_comparisons.png)
 
 Using XGBoost as our model, we achieved an ROC AUC of 0.84-85 (See comparison with other models above). The results show that week and month of the year were top predictors for our model, followed by several clusters (geolocations), average temperature, humidity and the pipiens species. This likely indicates that WNV is likely seasonal.
 
