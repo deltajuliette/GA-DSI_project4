@@ -47,12 +47,16 @@ In Illinois, WNV human infections have been endemic since 2002, with annual vari
 
 # Summary of our findings
 
-![model_comparisons.png](/images/model_comparisons.png)
+![model_comparisons.png](./images/model_comparisons.png)
 
 Using XGBoost as our model, we achieved an ROC AUC of 0.84-85 (See comparison with other models above). The results show that week and month of the year were top predictors for our model, followed by several clusters (geolocations), average temperature, humidity and the pipiens species. This likely indicates that WNV is likely seasonal.
+
+![xgboost_roc_auc.png](./images/xgboost_roc_auc.png)
 
 We believe further improvements can be made to the model (if given enough time). Here are some of our considerations:
 * There could be a bias for certain traps (Given that a particular trap may always capture more mosquitos, etc)
 * Possibility of a daily multiplier given an array of outbreaks; Outbreaks will possibly influence the days before and after it (They tend to cluster in the dimension of time too
 
 After conducting a cost-benefit analysis, we've found that there are cost savings from reducing WNV cases. As we observed some **seasonality effects** in our model (i.e. week and month), it may be more efficient to start spraying based on seasonal spikes in July-August before they peak later.
+
+![map_predictions.png](./images/map_predictions.png)
