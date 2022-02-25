@@ -60,4 +60,4 @@ We believe further improvements can be made to the model (if given enough time).
 
 After conducting a cost-benefit analysis, we've found that there are cost savings from reducing WNV cases. As we observed some **seasonality effects** in our model (i.e. week and month), it may be more efficient to start spraying based on seasonal spikes in July-August before they peak later.
 
-![map_predictions.PNG](./images/map_predictions.PNG "map_predictions.PNG")
+![map_predictions.PNG](https://github.com/deltajuliette/GA-DSI_project4/blob/master/images/map_predictions.png "map_predictions.PNG")
